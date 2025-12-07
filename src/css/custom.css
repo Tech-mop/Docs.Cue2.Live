@@ -41,13 +41,19 @@
   display: none;
 }
 
+/* Add primary color line below navbar */
+.navbar {
+  border-bottom: 1px solid var(--ifm-color-primary);
+}
+
 /* Make navbar logo bigger */
 .navbar__brand img {
-  height: 50px;
+  height: 30px;
   width: auto;
 }
 
 /* Darker footer background */
 .footer {
   background-color: #111;
+  border-top: 1px solid var(--ifm-color-primary);
 }

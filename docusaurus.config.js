@@ -63,13 +63,14 @@ const config = {
         logo: {
           alt: 'Cue2 Logo',
           src: 'img/Cue2Logo.svg',
+          href: 'https://www.cue2.live',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Home',
+            label: 'Docs Home',
           },
           {
             href: 'https://github.com/Tech-mop/Cue2',

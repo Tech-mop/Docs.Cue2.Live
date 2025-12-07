@@ -16,6 +16,7 @@ const sidebars = {
   tutorialSidebar: [
     'index',
     'getting-started',
+    'roadmap',
     {
       type: 'category',
       label: 'Audio',
