@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Settings
+cue2_version: v0.1:StripyHat
 description: Show settings and Cue2 application preferences.
 ---
 

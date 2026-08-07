@@ -1,6 +1,7 @@
 ---
 sidebar_label: Audio output patch
 title: Audio output patch settings
+cue2_version: v0.1:StripyHat
 description: Edit show audio patches and open devices.
 ---
 

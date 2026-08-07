@@ -1,6 +1,7 @@
 ---
 sidebar_label: Seek
 title: Control seek
+cue2_version: v0.1:StripyHat
 description: Absolute and relative seek via control components.
 ---
 

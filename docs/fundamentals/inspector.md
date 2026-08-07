@@ -1,6 +1,7 @@
 ---
 sidebar_label: Inspector
 title: The inspector
+cue2_version: v0.1:StripyHat
 description: Inspector tabs for shell and component editing.
 ---
 

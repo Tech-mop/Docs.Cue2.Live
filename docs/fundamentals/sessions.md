@@ -1,6 +1,7 @@
 ---
 sidebar_label: Sessions & showfiles
 title: Sessions and showfiles
+cue2_version: v0.1:StripyHat
 description: Creating, saving, and moving Cue2 sessions (.c2).
 ---
 

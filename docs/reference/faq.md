@@ -1,6 +1,7 @@
 ---
 sidebar_label: FAQ
 title: FAQ
+cue2_version: v0.1:StripyHat
 description: Short answers to common questions.
 ---
 

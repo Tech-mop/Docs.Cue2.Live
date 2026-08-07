@@ -1,6 +1,7 @@
 ---
 sidebar_label: Zero to audio
 title: Tutorial — Zero to audio
+cue2_version: v0.1:StripyHat
 description: Create a session, add an audio file, assign output, and GO.
 ---
 

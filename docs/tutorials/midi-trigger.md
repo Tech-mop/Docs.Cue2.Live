@@ -1,6 +1,7 @@
 ---
 sidebar_label: MIDI trigger a cue
 title: Tutorial — MIDI trigger a cue
+cue2_version: v0.1:StripyHat
 description: Start a cue from a MIDI note or CC.
 ---
 

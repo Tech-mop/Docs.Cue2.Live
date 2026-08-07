@@ -1,6 +1,7 @@
 ---
 sidebar_label: OSC command reference
 title: OSC command reference
+cue2_version: v0.1:StripyHat
 description: Built-in OSC commands and hierarchical aliases.
 ---
 

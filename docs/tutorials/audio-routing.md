@@ -1,6 +1,7 @@
 ---
 sidebar_label: Routing audio
 title: Tutorial — Audio routing
+cue2_version: v0.1:StripyHat
 description: Output patches and per-cue routing matrix.
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_label: Timing
 title: Timing model
+cue2_version: v0.1:StripyHat
 description: Pre-wait, content duration, post-wait, and totals.
 ---
 

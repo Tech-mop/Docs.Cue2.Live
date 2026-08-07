@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue library
 title: Cue library
+cue2_version: v0.1:StripyHat
 description: User-scoped library of reusable cues.
 ---
 

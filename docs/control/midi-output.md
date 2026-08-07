@@ -1,6 +1,7 @@
 ---
 sidebar_label: MIDI output
 title: MIDI output components
+cue2_version: v0.1:StripyHat
 description: Send MIDI channel messages when a cue fires.
 ---
 

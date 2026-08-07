@@ -1,6 +1,7 @@
 ---
 sidebar_label: Fades
 title: Control fades
+cue2_version: v0.1:StripyHat
 description: Fade volume, opacity, pan, or a matrix cell.
 ---
 

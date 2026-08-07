@@ -1,6 +1,7 @@
 ---
 sidebar_label: Building from source
 title: Building from source
+cue2_version: v0.1:StripyHat
 description: High-level notes for compiling Cue2.
 ---
 

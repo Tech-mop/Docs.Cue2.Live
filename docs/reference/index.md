@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Reference
+cue2_version: v0.1:StripyHat
 description: Glossary, formats, and FAQ.
 ---
 

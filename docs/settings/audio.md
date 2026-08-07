@@ -1,6 +1,7 @@
 ---
 sidebar_label: Audio
 title: Audio settings
+cue2_version: v0.1:StripyHat
 description: Latency mode, de-click, and master volume.
 ---
 

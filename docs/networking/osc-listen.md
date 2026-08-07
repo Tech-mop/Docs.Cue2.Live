@@ -1,6 +1,7 @@
 ---
 sidebar_label: OSC listen
 title: OSC listen
+cue2_version: v0.1:StripyHat
 description: Enable inbound OSC and monitor traffic.
 ---
 

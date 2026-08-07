@@ -1,6 +1,7 @@
 ---
 sidebar_label: Component types
 title: Component types
+cue2_version: v0.1:StripyHat
 description: All cue component types at a glance.
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_label: Formats & images
 title: Formats and still images
+cue2_version: v0.1:StripyHat
 description: Practical codec notes and image hold behaviour.
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Tutorials
+cue2_version: v0.1:StripyHat
 description: Hands-on tutorials for Cue2.
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_label: Groups & nesting
 title: Tutorial — Groups and nesting
+cue2_version: v0.1:StripyHat
 description: Group selected cues under a parent shell.
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_label: Technical — Signal path
 title: Technical — Audio signal path
+cue2_version: v0.1:StripyHat
 description: End-to-end audio pipeline from file to device.
 ---
 

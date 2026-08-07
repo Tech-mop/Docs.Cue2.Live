@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue MIDI triggers
 title: Cue MIDI triggers
+cue2_version: v0.1:StripyHat
 description: Per-cue MIDI patterns that GO a shell.
 ---
 

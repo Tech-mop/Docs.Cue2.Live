@@ -1,6 +1,7 @@
 ---
 sidebar_label: Install & first launch
 title: Install & first launch
+cue2_version: v0.1:StripyHat
 description: How to open Cue2 and complete first-run setup.
 ---
 

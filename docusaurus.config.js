@@ -1,10 +1,16 @@
 import {themes as prismThemes} from 'prism-react-renderer';
+import {CUE2_CURRENT_VERSION} from './src/cue2DocMeta.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Cue2 Documentation',
   tagline: 'Multi-platform event playback software',
   favicon: 'img/icon98.png',
+
+  // Site-wide “current” Cue2 line (per-page values live in Markdown front matter).
+  customFields: {
+    cue2CurrentVersion: CUE2_CURRENT_VERSION,
+  },
 
   // Set the production url of your site here
   url: 'https://docs.cue2.live',
@@ -29,7 +35,27 @@ const config = {
     },
   },
 
-  themes: ['@docusaurus/theme-mermaid'],
+  themes: [
+    '@docusaurus/theme-mermaid',
+    // Offline full-text search (navbar search box). No Algolia account required.
+    [
+      '@easyops-cn/docusaurus-search-local',
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        hashed: true,
+        language: ['en'],
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        // Docs are served from site root (routeBasePath: '/').
+        docsRouteBasePath: '/',
+        explicitSearchResultPath: true,
+        searchBarShortcutHint: true,
+        // Hide meta / maintainer-only noise from the index when possible.
+        ignoreFiles: [/\/meta\//],
+      }),
+    ],
+  ],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you

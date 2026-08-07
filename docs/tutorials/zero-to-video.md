@@ -1,6 +1,7 @@
 ---
 sidebar_label: Zero to video
 title: Tutorial — Zero to video
+cue2_version: v0.1:StripyHat
 description: Configure a layer, add video, and play to an output window.
 ---
 

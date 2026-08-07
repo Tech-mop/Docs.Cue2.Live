@@ -1,6 +1,7 @@
 ---
 sidebar_label: Control cues
 title: Tutorial — Control cues
+cue2_version: v0.1:StripyHat
 description: Use a control component to stop or fade another cue.
 ---
 

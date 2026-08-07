@@ -1,6 +1,7 @@
 ---
 sidebar_label: Versioning
 title: Versioning
+cue2_version: v0.1:StripyHat
 description: Application versions, code names, and docs site.
 ---
 

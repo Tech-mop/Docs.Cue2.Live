@@ -1,6 +1,7 @@
 ---
 sidebar_label: Connections & maps
 title: Connections and input maps
+cue2_version: v0.1:StripyHat
 description: OSC/MIDI connection panels and show input maps.
 ---
 

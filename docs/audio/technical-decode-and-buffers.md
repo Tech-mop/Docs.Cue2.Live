@@ -1,6 +1,7 @@
 ---
 sidebar_label: Technical — Decode & buffers
 title: Technical — Decode and buffers
+cue2_version: v0.1:StripyHat
 description: Prefetch, ring sizing, fill thresholds, and underruns.
 ---
 

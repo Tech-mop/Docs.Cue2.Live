@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Audio
+cue2_version: v0.1:StripyHat
 description: Audio components, patches, routing, and engine internals.
 ---
 

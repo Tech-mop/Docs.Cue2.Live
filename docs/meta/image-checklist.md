@@ -2,6 +2,7 @@
 sidebar_class_name: hidden
 unlisted: true
 title: Image checklist
+cue2_version: v0.1:StripyHat
 description: Maintainer list of documentation screenshots to capture.
 ---
 

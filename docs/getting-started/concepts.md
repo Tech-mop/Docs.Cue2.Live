@@ -1,6 +1,7 @@
 ---
 sidebar_label: Concepts
 title: Concepts in five minutes
+cue2_version: v0.1:StripyHat
 description: Sessions, cue shells, components, playhead, and GO.
 ---
 

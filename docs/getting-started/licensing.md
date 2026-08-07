@@ -1,6 +1,7 @@
 ---
 sidebar_label: Licensing
 title: Open source & licensing
+cue2_version: v0.1:StripyHat
 description: Cue2 MIT license and FFmpeg LGPL compliance notes.
 ---
 

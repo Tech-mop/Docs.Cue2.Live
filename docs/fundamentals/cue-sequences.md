@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue sequences
 title: Cue sequences
+cue2_version: v0.1:StripyHat
 description: Continue and Follow modes for automatic chaining.
 ---
 

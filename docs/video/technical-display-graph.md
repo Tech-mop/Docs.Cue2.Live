@@ -1,6 +1,7 @@
 ---
 sidebar_label: Technical — Display graph
 title: Technical — Display graph
+cue2_version: v0.1:StripyHat
 description: Canvas to screens to layers to textures.
 ---
 

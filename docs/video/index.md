@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Video and displays
+cue2_version: v0.1:StripyHat
 description: Video components, canvas graph, and present pipeline.
 ---
 

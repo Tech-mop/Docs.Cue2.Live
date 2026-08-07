@@ -1,6 +1,7 @@
 ---
 sidebar_label: OSC send
 title: OSC send components
+cue2_version: v0.1:StripyHat
 description: Fire OSC messages from cues on named connections.
 ---
 

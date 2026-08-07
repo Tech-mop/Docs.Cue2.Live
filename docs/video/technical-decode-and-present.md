@@ -1,6 +1,7 @@
 ---
 sidebar_label: Technical — Decode & present
 title: Technical — Video decode and present
+cue2_version: v0.1:StripyHat
 description: Frame rings, master clock, lateness, and present ticks.
 ---
 

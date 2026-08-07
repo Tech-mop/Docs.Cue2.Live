@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue lights
 title: Cue light components
+cue2_version: v0.1:StripyHat
 description: Drive cue light devices from cues.
 ---
 

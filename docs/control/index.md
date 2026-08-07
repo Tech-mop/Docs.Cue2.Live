@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Control and components
+cue2_version: v0.1:StripyHat
 description: Control, OSC send, MIDI out, and cue light components.
 ---
 

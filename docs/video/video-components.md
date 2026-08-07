@@ -1,6 +1,7 @@
 ---
 sidebar_label: Video components
 title: Video components
+cue2_version: v0.1:StripyHat
 description: Movies and still images as cue components.
 ---
 

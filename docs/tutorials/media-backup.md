@@ -1,6 +1,7 @@
 ---
 sidebar_label: Portable show folder
 title: Tutorial — Portable show folder
+cue2_version: v0.1:StripyHat
 description: Copy media into the show folder for portable relative paths.
 ---
 

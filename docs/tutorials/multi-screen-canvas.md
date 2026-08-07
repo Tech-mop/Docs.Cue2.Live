@@ -1,6 +1,7 @@
 ---
 sidebar_label: Multi-screen canvas
 title: Tutorial — Multi-screen canvas
+cue2_version: v0.1:StripyHat
 description: Place multiple screens and layers on one canvas.
 ---
 

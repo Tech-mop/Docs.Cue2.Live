@@ -1,6 +1,7 @@
 ---
 sidebar_label: Groups
 title: Groups and hierarchy
+cue2_version: v0.1:StripyHat
 description: Nesting cues under group shells.
 ---
 

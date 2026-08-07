@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue routing matrix
 title: Cue routing matrix
+cue2_version: v0.1:StripyHat
 description: Per-cue source-to-bus matrix before the output patch.
 ---
 

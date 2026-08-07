@@ -1,6 +1,7 @@
 ---
 sidebar_label: Subtitles
 title: Subtitles
+cue2_version: v0.1:StripyHat
 description: Text-based subtitle tracks and sidecar files.
 ---
 

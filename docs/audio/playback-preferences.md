@@ -1,6 +1,7 @@
 ---
 sidebar_label: Playback preferences
 title: Audio playback preferences
+cue2_version: v0.1:StripyHat
 description: Latency modes, de-click, and master volume.
 ---
 

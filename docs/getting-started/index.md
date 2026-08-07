@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Getting started
+cue2_version: v0.1:StripyHat
 description: Install Cue2, learn core concepts, and find keyboard shortcuts.
 ---
 

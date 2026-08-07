@@ -1,6 +1,7 @@
 ---
 sidebar_label: Remote GO with OSC
 title: Tutorial — Remote GO with OSC
+cue2_version: v0.1:StripyHat
 description: Enable OSC listen and fire GO from the network.
 ---
 

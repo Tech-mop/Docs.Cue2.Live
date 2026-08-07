@@ -1,6 +1,7 @@
 ---
 sidebar_label: Triggers
 title: Triggers
+cue2_version: v0.1:StripyHat
 description: Hotkey, OSC, MIDI, and wall-clock triggers on cues.
 ---
 

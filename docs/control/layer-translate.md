@@ -1,6 +1,7 @@
 ---
 sidebar_label: Layer translate
 title: Translate layer
+cue2_version: v0.1:StripyHat
 description: Animate canvas layer position and size from a control component.
 ---
 

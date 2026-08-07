@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue2 Preferences
 title: Cue2 Preferences
+cue2_version: v0.1:StripyHat
 description: App-scoped keyboard map and language.
 ---
 

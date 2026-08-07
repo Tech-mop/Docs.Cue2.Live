@@ -1,6 +1,7 @@
 ---
 sidebar_label: Technical — Mixing
 title: Technical — Mixing engine
+cue2_version: v0.1:StripyHat
 description: AudioMixMatrix rules for volume, pan, routing, and patches.
 ---
 

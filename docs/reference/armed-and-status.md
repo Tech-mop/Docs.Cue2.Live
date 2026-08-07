@@ -1,6 +1,7 @@
 ---
 sidebar_label: Armed & status
 title: Armed and status behaviour
+cue2_version: v0.1:StripyHat
 description: Arming, skip-if-disarmed, and issue indicators.
 ---
 

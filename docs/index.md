@@ -1,6 +1,7 @@
 ---
 sidebar_label: Home
 title: Cue2 Documentation
+cue2_version: v0.1:StripyHat
 description: Official manual for Cue2 — cross-platform live media playback and show control.
 ---
 
@@ -8,7 +9,7 @@ description: Official manual for Cue2 — cross-platform live media playback and
 
 Cue2 is free and open-source software for **cue-based playback of audio, video, text overlays, and show-control messages**. It is built for live performance, installations, and any workflow that needs reliable, low-latency triggering of media and network commands.
 
-This manual covers the product as it exists in the current development line (**v0.1.x**). Defaults, buffer sizes, and command paths are taken from the application source so technical readers can trust the numbers.
+This manual covers the product as it exists in the current development line. Each page shows an **Applies to** badge with the Cue2 version it was last verified against (currently **v0.1:StripyHat**). Defaults, buffer sizes, and command paths are taken from the application source so technical readers can trust the numbers.
 
 ## Start here
 

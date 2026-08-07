@@ -1,6 +1,7 @@
 ---
 sidebar_label: Media backup layout
 title: Media backup layout
+cue2_version: v0.1:StripyHat
 description: Show-local Audio, Video, and Images folders.
 ---
 

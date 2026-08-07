@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cue lights setup
 title: Cue lights setup
+cue2_version: v0.1:StripyHat
 description: Configure cue light devices for the show.
 ---
 

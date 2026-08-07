@@ -1,6 +1,7 @@
 ---
 sidebar_label: Glossary
 title: Glossary
+cue2_version: v0.1:StripyHat
 description: Cue2 terminology.
 ---
 

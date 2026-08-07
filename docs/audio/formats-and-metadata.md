@@ -1,6 +1,7 @@
 ---
 sidebar_label: Formats & metadata
 title: Formats and metadata
+cue2_version: v0.1:StripyHat
 description: Container/codec practical notes and metadata fields.
 ---
 

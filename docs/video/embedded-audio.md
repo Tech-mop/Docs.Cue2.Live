@@ -1,6 +1,7 @@
 ---
 sidebar_label: Embedded audio
 title: Embedded audio on video
+cue2_version: v0.1:StripyHat
 description: Playing audio streams attached to video components.
 ---
 

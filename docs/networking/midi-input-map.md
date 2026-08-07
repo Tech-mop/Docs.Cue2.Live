@@ -1,6 +1,7 @@
 ---
 sidebar_label: MIDI Input Map
 title: MIDI Input Map
+cue2_version: v0.1:StripyHat
 description: Bind MIDI messages to app actions.
 ---
 

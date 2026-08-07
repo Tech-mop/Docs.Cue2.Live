@@ -1,6 +1,7 @@
 ---
 sidebar_label: System requirements
 title: System requirements
+cue2_version: v0.1:StripyHat
 description: Supported platforms and hardware guidance for Cue2.
 ---
 

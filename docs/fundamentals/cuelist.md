@@ -1,6 +1,7 @@
 ---
 sidebar_label: Cuelist
 title: Cuelist and selection
+cue2_version: v0.1:StripyHat
 description: Ordering, selection, columns, and multi-edit in the cuelist.
 ---
 

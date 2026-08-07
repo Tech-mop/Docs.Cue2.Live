@@ -1,6 +1,7 @@
 ---
 sidebar_label: Main window
 title: The main window
+cue2_version: v0.1:StripyHat
 description: Tour of Cue2's primary workspace layout.
 ---
 

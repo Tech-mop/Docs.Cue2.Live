@@ -1,6 +1,7 @@
 ---
 sidebar_label: MIDI overview
 title: MIDI overview
+cue2_version: v0.1:StripyHat
 description: Session devices, maps, triggers, and output.
 ---
 

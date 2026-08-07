@@ -1,6 +1,7 @@
 ---
 sidebar_label: OSC connections
 title: OSC connections
+cue2_version: v0.1:StripyHat
 description: Named outbound OSC destinations.
 ---
 

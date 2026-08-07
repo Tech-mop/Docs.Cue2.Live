@@ -1,6 +1,7 @@
 ---
 sidebar_label: Layout
 title: Video layout (expand and stretch)
+cue2_version: v0.1:StripyHat
 description: How frames fill the layer rectangle.
 ---
 

@@ -1,6 +1,7 @@
 ---
 sidebar_label: Playback & transport
 title: Active cues and transport
+cue2_version: v0.1:StripyHat
 description: GO, stop, pause, load, seek, and active instances.
 ---
 

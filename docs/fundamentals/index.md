@@ -1,6 +1,7 @@
 ---
 sidebar_label: Overview
 title: Fundamentals
+cue2_version: v0.1:StripyHat
 description: Workspace, cues, timing, transport, and document history.
 ---
 

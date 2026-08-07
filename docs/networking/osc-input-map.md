@@ -1,6 +1,7 @@
 ---
 sidebar_label: OSC Input Map
 title: OSC Input Map
+cue2_version: v0.1:StripyHat
 description: Map OSC addresses to project actions.
 ---
 

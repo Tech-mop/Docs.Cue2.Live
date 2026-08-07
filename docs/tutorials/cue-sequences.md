@@ -1,6 +1,7 @@
 ---
 sidebar_label: Building a sequence
 title: Tutorial — Building a sequence
+cue2_version: v0.1:StripyHat
 description: Chain cues with Continue and Follow.
 ---
 

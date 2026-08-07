@@ -1,6 +1,7 @@
 ---
 sidebar_label: Zero to text
 title: Tutorial — Zero to text
+cue2_version: v0.1:StripyHat
 description: Display a text overlay on a video layer.
 ---
 
