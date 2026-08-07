@@ -18,7 +18,18 @@ const config = {
   projectName: 'Docs.Cue2.Live', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  // Screenshots are filled in later (see docs/meta/image-checklist.md).
+  // Keep image warn until assets exist so local/CI builds succeed.
+  markdown: {
+    mermaid: true,
+    hooks: {
+      onBrokenMarkdownImages: 'warn',
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
+
+  themes: ['@docusaurus/theme-mermaid'],
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -70,7 +81,17 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs Home',
+            label: 'Manual',
+          },
+          {
+            to: '/tutorials',
+            label: 'Tutorials',
+            position: 'left',
+          },
+          {
+            to: '/networking/osc-command-reference',
+            label: 'OSC Reference',
+            position: 'left',
           },
           {
             href: 'https://github.com/Tech-mop/Cue2',
@@ -85,10 +106,10 @@ const config = {
           {
             title: 'Docs',
             items: [
-              {
-                label: 'Getting Started',
-                to: '/getting-started',
-              },
+              { label: 'Home', to: '/' },
+              { label: 'Getting started', to: '/getting-started' },
+              { label: 'Tutorials', to: '/tutorials' },
+              { label: 'OSC command reference', to: '/networking/osc-command-reference' },
             ],
           },
           {

@@ -1,22 +1,31 @@
 # Cue2 Documentation
 
-This is the official documentation site for Cue2, built with Docusaurus.
+Official documentation for [Cue2](https://www.cue2.live/), built with [Docusaurus](https://docusaurus.io/).
 
-## Local Development
+## Local development
 
-1. Install dependencies: `npm install`
-2. Start the development server: `npm start`
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+```bash
+npm install
+npm start
+```
 
-## Deployment
+Open [http://localhost:3000](http://localhost:3000).
 
-This site is deployed to GitHub Pages automatically on pushes to the main branch.
+```bash
+npm run build   # production build (fails on broken links)
+npm run serve   # serve ./build
+npm run clear   # clear Docusaurus cache
+```
 
-To deploy manually:
+## Content layout
 
-1. Build the site: `npm run build`
-2. Deploy: `npm run deploy`
+| Path | Content |
+|------|---------|
+| `docs/` | Manual Markdown |
+| `docs/meta/image-checklist.md` | Screenshot capture list |
+| `static/img/docs/` | Screenshots and figures |
+| `sidebars.js` | Navigation tree |
 
 ## Contributing
 
-Contributions are welcome! Please see the [Contributing Guide](docs/contributing.md) for details.
+See [Contributing](docs/project/contributing.md) in the manual. Prefer accurate, code-verified technical claims. Do not reference competing products in user-facing pages.

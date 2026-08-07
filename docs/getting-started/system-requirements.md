@@ -1,0 +1,45 @@
+---
+sidebar_label: System requirements
+title: System requirements
+description: Supported platforms and hardware guidance for Cue2.
+---
+
+# System requirements
+
+## Supported platforms
+
+| Platform | Notes |
+|----------|--------|
+| **Windows** | Windows 10 or later (x64; arm64 builds may be provided separately) |
+| **macOS** | Recent macOS versions; Apple Silicon and Intel depending on the build |
+| **Linux** | Modern distributions with working audio and display stacks |
+
+Cue2 is written in **C# on Godot 4.6 Mono**. Media decode uses **FFmpeg** shared libraries loaded dynamically. Audio device I/O uses **SDL3**.
+
+## Hardware guidance
+
+Cue2 is designed for **low-latency GO** and multi-cue playback, but real performance depends on codec, resolution, channel count, and how many cues run at once.
+
+| Workload | Recommendation |
+|----------|----------------|
+| Stereo audio, modest cue count | Typical modern laptop or desktop |
+| Multi-channel audio + large patches | Prefer low-latency audio interfaces; use [Prefer stability](../audio/playback-preferences.md) if you hear underruns |
+| HD / multi-layer video | Dedicated GPU helps present; prefer wired displays; tune [video quality mode](../video/output-preferences.md) |
+| Multi-screen canvases | Enough GPU memory and reliable display connections |
+
+There is no fixed “minimum RAM” enforced by the app. Video prefetch rings and waveform generation use more memory with more simultaneous media.
+
+## Media libraries
+
+Release and export packages include platform-specific FFmpeg (and related) natives. If libraries are missing, Cue2 logs an error at startup and media features will not work until natives are present on the library search path. See [Building from source](../project/building.md) for developer packaging notes.
+
+## Displays and audio devices
+
+- **Audio:** Cue2 enumerates devices through its audio device service (SDL). Open the devices you need in show settings / patch UI before expecting sound.
+- **Video:** Output windows are managed per screen configuration in the [canvas editor](../settings/canvas-editor.md). House outputs are separate from the main editing window.
+
+## Related
+
+- [Install & first launch](./install.md)
+- [Audio troubleshooting](../audio/troubleshooting.md)
+- [Video troubleshooting](../video/troubleshooting.md)
