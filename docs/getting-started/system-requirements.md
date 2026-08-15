@@ -34,6 +34,11 @@ There is no fixed “minimum RAM” enforced by the app. Video prefetch rings an
 
 Release and export packages include platform-specific FFmpeg (and related) natives. If libraries are missing, Cue2 logs an error at startup and media features will not work until natives are present on the library search path. See [Building from source](../project/building.md) for developer packaging notes.
 
+Accepted file **extensions** for browse/drop and practical codec notes live under:
+
+- [Audio formats & metadata](../audio/formats-and-metadata.md)
+- [Video formats & images](../video/formats-and-images.md)
+
 ## Displays and audio devices
 
 - **Audio:** Cue2 enumerates devices through its audio device service (SDL). Open the devices you need in show settings / patch UI before expecting sound.
