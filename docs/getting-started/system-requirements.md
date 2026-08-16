@@ -9,13 +9,11 @@ description: Supported platforms and hardware guidance for Cue2.
 
 ## Supported platforms
 
-| Platform | Notes |
-|----------|--------|
-| **Windows** | Windows 10 or later (x64; arm64 builds may be provided separately) |
-| **macOS** | Recent macOS versions; Apple Silicon and Intel depending on the build |
+| Platform | Notes                                          |
+|----------|------------------------------------------------|
+| **Windows** | Windows 10 or later (x64; arm64 builds provided separately) |
+| **macOS** | Apple Silicon and Intel depending on the build |
 | **Linux** | Modern distributions with working audio and display stacks |
-
-Cue2 is written in **C# on Godot 4.6 Mono**. Media decode uses **FFmpeg** shared libraries loaded dynamically. Audio device I/O uses **SDL3**.
 
 ## Hardware guidance
 

@@ -12,30 +12,33 @@ description: How to open Cue2 and complete first-run setup.
 - **Releases:** download a build for your platform from the project’s [GitHub releases](https://github.com/Tech-mop/Cue2/releases) or the website [cue2.live](https://www.cue2.live/).
 - **From source:** see [Building from source](../project/building.md).
 
-Unzip or install according to the package for your OS. Keep bundled native libraries next to the application when using exported builds.
+Unzip the package for your OS. Keep bundled native libraries next to the application when using exported builds.
 
 ## First launch
 
 1. Start Cue2.
-2. If this is the first run, a **welcome / language** step may appear. Language is an **app preference** (stored for your user account), not part of the showfile.
-3. The **launcher** lets you open a recent session or start a new one.
-4. Choosing **New Session** opens the main workspace with an empty cuelist.
+2. On the first run, a **Welcome** window appears.
+3. Set **language** and **UI Scaling** if you want. These are app preferences (stored for your user account), not part of the showfile.
+4. When you are ready, press **Let's "Go"!**.
+5. The main workspace opens with an empty cuelist.
 
-<!-- IMAGE: getting-started/launcher.png
-     Caption: Cue2 launcher with recent sessions and New Session.
-     Shot: Launcher window, default size.
--->
-![Cue2 launcher](/img/docs/getting-started/launcher.png)
+Later launches skip the welcome window. Cue2 may reopen the last show, depending on startup preferences.
 
 <!-- IMAGE: getting-started/first-time.png
-     Caption: First-time language selection.
-     Shot: Welcome dialog language picker.
+     Caption: First-time welcome window.
+     Shot: Welcome window with language and UI Scaling.
 -->
-![First-time language selection](/img/docs/getting-started/first-time.png)
+![First-time welcome window](/img/docs/getting-started/first-time.png)
 
 ## User data location
 
-Cue2 uses a custom user directory named **`Techmop/Cue2`** (via the engine’s user data path). Preferences such as keyboard Input Map and locale live here, separate from `.c2` showfiles.
+Cue2 uses a custom user directory named **`Techmop/Cue2`**. Preferences such as keyboard Input Map, language, and UI scale live here, separate from `.c2` showfiles. Session logs are in the `logs` subfolder.
+
+| Platform | Typical path |
+|----------|----------------|
+| **Windows** | `%APPDATA%\Techmop\Cue2` — for example `C:\Users\<you>\AppData\Roaming\Techmop\Cue2` |
+| **macOS** | `~/Library/Application Support/Techmop/Cue2` |
+| **Linux** | `~/.local/share/Techmop/Cue2` |
 
 ## Sanity checks after install
 
