@@ -31,6 +31,15 @@ No. They are app preferences. Per-cue hotkeys **are** saved in the show.
 
 Enable media backup and copy the whole show folder. See [Media backup](../tutorials/media-backup.md).
 
+### What media formats does Cue2 support?
+
+File dialogs and drag-and-drop accept a wide set of **extensions** (audio, video, still image). Decode is via **FFmpeg**, so the real codec must be present in the bundled libraries. Full lists and caveats:
+
+- [Audio formats & metadata](../audio/formats-and-metadata.md)
+- [Video formats & images](../video/formats-and-images.md)
+
+Always test show-critical media on the playback machine with the same Cue2 build.
+
 ### Where is the OSC list?
 
 [OSC command reference](../networking/osc-command-reference.md).

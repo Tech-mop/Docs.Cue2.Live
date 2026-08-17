@@ -9,13 +9,11 @@ description: Supported platforms and hardware guidance for Cue2.
 
 ## Supported platforms
 
-| Platform | Notes |
-|----------|--------|
-| **Windows** | Windows 10 or later (x64; arm64 builds may be provided separately) |
-| **macOS** | Recent macOS versions; Apple Silicon and Intel depending on the build |
+| Platform | Notes                                          |
+|----------|------------------------------------------------|
+| **Windows** | Windows 10 or later (x64; arm64 builds provided separately) |
+| **macOS** | Apple Silicon and Intel depending on the build |
 | **Linux** | Modern distributions with working audio and display stacks |
-
-Cue2 is written in **C# on Godot 4.6 Mono**. Media decode uses **FFmpeg** shared libraries loaded dynamically. Audio device I/O uses **SDL3**.
 
 ## Hardware guidance
 
@@ -33,6 +31,11 @@ There is no fixed “minimum RAM” enforced by the app. Video prefetch rings an
 ## Media libraries
 
 Release and export packages include platform-specific FFmpeg (and related) natives. If libraries are missing, Cue2 logs an error at startup and media features will not work until natives are present on the library search path. See [Building from source](../project/building.md) for developer packaging notes.
+
+Accepted file **extensions** for browse/drop and practical codec notes live under:
+
+- [Audio formats & metadata](../audio/formats-and-metadata.md)
+- [Video formats & images](../video/formats-and-images.md)
 
 ## Displays and audio devices
 

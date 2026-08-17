@@ -7,9 +7,28 @@ description: Built-in OSC commands and hierarchical aliases.
 
 # OSC command reference
 
-Built-in handlers are registered in Cue2’s OSC listen path. App-wide actions such as `/Go` also exist as **Input Map defaults** and may be rebound.
+Built-in handlers are registered in Cue2’s OSC listen path. App-wide Input Map actions also have factory OSC addresses and may be rebound in the [OSC Input Map](./osc-input-map.md).
 
 Argument forms often accept either OSC args or path suffixes (e.g. `/GoNum/1.2` style patterns where documented in-app). Prefer testing against the live log.
+
+## Input Map defaults
+
+These addresses fire the same project actions as the keyboard Input Map (`Go`, `StopAll`, `EditMode`, …). They are show-scoped and can be rebound or cleared.
+
+| Address | Action |
+|---------|--------|
+| `/Go` | GO selected / playhead |
+| `/StopAll` | Stop all |
+| `/PauseAll` | Pause all |
+| `/ResumeAll` | Resume all |
+| `/SelectAll` | Select all cues |
+| `/SelectNext` | Select next cue |
+| `/SelectPrevious` | Select previous cue |
+| `/Save` | Save session |
+| `/Undo` | Undo |
+| `/Redo` | Redo |
+| `/EditMode` | Enter edit mode (unlock cue editing) |
+| `/ShowMode` | Enter show mode (lock cue editing) |
 
 ## Selection
 

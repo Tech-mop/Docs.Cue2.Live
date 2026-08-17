@@ -12,6 +12,8 @@ Cue2 can load **text-based** subtitle / caption data:
 - Embedded subtitle streams in a container (via FFmpeg)  
 - External sidecar files (`.srt`, `.vtt`, `.ass`, …) parsed as text  
 
+Sidecar subtitle files are **not** in the main audio/video/image media extension lists; attach them from the video/subtitle UI rather than expecting a new media cue from drop.
+
 Bitmap subtitle codecs are **not** supported.
 
 ## Presentation
