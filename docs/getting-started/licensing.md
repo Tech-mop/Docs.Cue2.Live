@@ -25,13 +25,21 @@ Implications for distributors and packagers:
 - Corresponding FFmpeg source for the bundled library versions is provided via project documentation and/or GitHub Releases as described in the repository.
 - Patent and codec considerations for certain formats remain the responsibility of whoever redistributes or deploys those codecs.
 
-The LGPLv2.1 text ships in the application `LICENSES` folder.
+The LGPLv2.1 text ships in the application `LICENSES` folder. The RtMidi license is `LICENSES/RtMidi.txt`.
 
 ## MIDI
 
-Cue2 uses **Melanchall.DryWetMidi** (MIT) for MIDI device I/O and related MIDI work. Platform native libraries (`Melanchall_DryWetMidi_Native64.dll` / `.dylib`) are loaded at runtime on Windows and macOS, the same way FFmpeg natives are.
+Cue2 uses **RtMidi 6.0** (MIT-style, Gary P. Scavone) for MIDI device input and output. Platform natives are loaded at runtime the same way FFmpeg natives are:
 
-Project: [github.com/melanchall/drywetmidi](https://github.com/melanchall/drywetmidi)
+| Platform | File |
+|----------|------|
+| Windows (x64 and arm64) | `rtmidi.dll` |
+| macOS (arm64) | `librtmidi.dylib` |
+| Linux (x64 and arm64) | `librtmidi.so` |
+
+Linux builds are ALSA-only and need system `libasound.so.2` (`libasound2` / `libasound2t64` on Debian/Ubuntu). JACK is not required.
+
+Project: [github.com/thestk/rtmidi](https://github.com/thestk/rtmidi)
 
 ## OSC
 
@@ -47,7 +55,7 @@ Project: [bitbucket.org/rugcode/rug.osc](https://bitbucket.org/rugcode/rug.osc)
 | SDL3 / SDL3-CS | Audio device I/O | zlib |
 | FFmpeg (native libraries) | Media decode | LGPLv2.1+ |
 | FFmpeg.AutoGen | C# bindings for FFmpeg | MIT |
-| Melanchall.DryWetMidi | MIDI input and output | MIT |
+| RtMidi | MIDI device input and output | MIT-style |
 | Rug.Osc | OSC send and receive | MIT |
 
 Attribution for these libraries appears in the in-app **About** dialog (**Help → About Cue2**). Always check that dialog and the `LICENSES` folder for the build you ship — versions can move between releases.

@@ -18,6 +18,7 @@ description: Cue2 terminology.
 | **Follow mode** | None / Continue / Follow sequencing |
 | **GO** | Start the selected/playhead cue sequence |
 | **Layer** | Drawable target rectangle on the canvas |
+| **MIDI session device** | Named input or output port opened for the show (Input Map, cue triggers, MIDI output components) |
 | **Patch** | Audio output mapping table |
 | **Playhead** | Cue that receives standard GO advancement |
 | **Post-wait** | Delay before a continued/followed next cue starts |

@@ -15,7 +15,11 @@ Session MIDI outputs ← MIDI output components
                      ← Panic (All Notes/Sound Off)
 ```
 
-Open devices in settings before show. Device names are machine-specific — reselect after moving shows.
+Open devices in **Settings → MIDI** before the show. Device names are machine-specific — reselect after moving shows.
+
+MIDI hardware I/O works on **Windows, macOS, and Linux**. Cue2 loads RtMidi natives at runtime (`rtmidi.dll` / `librtmidi.dylib` / `librtmidi.so`). Linux needs system ALSA (`libasound.so.2`).
+
+Cue2 does not play Standard MIDI Files as audio. `.mid` / `.midi` files are not media components — they are unrelated to this device I/O path.
 
 ## Related
 

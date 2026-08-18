@@ -28,9 +28,16 @@ Cue2 is designed for **low-latency GO** and multi-cue playback, but real perform
 
 There is no fixed “minimum RAM” enforced by the app. Video prefetch rings and waveform generation use more memory with more simultaneous media.
 
-## Media libraries
+## Media and MIDI libraries
 
-Release and export packages include platform-specific FFmpeg (and related) natives. If libraries are missing, Cue2 logs an error at startup and media features will not work until natives are present on the library search path. See [Building from source](../project/building.md) for developer packaging notes.
+Release and export packages include platform-specific **FFmpeg** and **RtMidi** natives. If those files are missing, Cue2 logs an error at startup:
+
+- **FFmpeg** missing → audio/video decode will not work.
+- **RtMidi** missing → MIDI devices will not enumerate or open.
+
+See [Building from source](../project/building.md) for developer packaging notes.
+
+**Linux MIDI** also needs system ALSA (`libasound.so.2`). Install `libasound2` or `libasound2t64` on Debian/Ubuntu if the MIDI native loads but devices never appear.
 
 Accepted file **extensions** for browse/drop and practical codec notes live under:
 

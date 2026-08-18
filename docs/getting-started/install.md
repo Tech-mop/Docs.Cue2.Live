@@ -44,9 +44,10 @@ Cue2 uses a custom user directory named **`Techmop/Cue2`**. Preferences such as 
 
 | Check | Expected |
 |-------|----------|
-| About dialog | Shows application version and library attribution |
-| Log | No fatal FFmpeg load errors |
+| About dialog | Shows application version and library attribution (including RtMidi) |
+| Log | No fatal FFmpeg or RtMidi load errors |
 | Settings → audio devices / patch | Devices list populates |
+| Settings → MIDI | Input/output lists populate when hardware is connected |
 | Drop an audio file | Cue appears; metadata/waveform can generate |
 
 If media fails immediately, reinstall natives or rebuild with the export packaging scripts. See [System requirements](./system-requirements.md).

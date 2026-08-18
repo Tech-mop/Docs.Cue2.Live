@@ -40,6 +40,10 @@ File dialogs and drag-and-drop accept a wide set of **extensions** (audio, video
 
 Always test show-critical media on the playback machine with the same Cue2 build.
 
+### Why don't MIDI devices appear?
+
+Enable MIDI in **Settings → MIDI**, add the port to the session, and confirm the log has no RtMidi load error. On Linux, install ALSA (`libasound2` / `libasound2t64`). Device names are per machine — reselect after moving a show. See [MIDI overview](../networking/midi-overview.md).
+
 ### Where is the OSC list?
 
 [OSC command reference](../networking/osc-command-reference.md).
