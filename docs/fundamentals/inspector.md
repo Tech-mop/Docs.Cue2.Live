@@ -24,7 +24,7 @@ The inspector is the primary editor for the **focused cue**.
 | **Audio** | File, waveform, in/out, loop, levels, pan, fades, patch, routing matrix |
 | **Video** | File/image, in/out or hold duration, layout, opacity, target layer, embedded audio |
 | **Text** | Content, typography, layer, duration, style |
-| **Connection** | OSC send components, MIDI output, cue light actions |
+| **Connection** | OSC send components, MIDI output |
 | **Control** | Control components (GO/stop/fade/seek/translate) |
 | **Library** | Save/load library entries related to the cue |
 

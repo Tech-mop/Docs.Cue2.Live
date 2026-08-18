@@ -2,7 +2,7 @@
 sidebar_label: Overview
 title: Control and components
 cue2_version: v0.1:StripyHat
-description: Control, OSC send, MIDI out, and cue light components.
+description: Control, OSC send, and MIDI out components.
 ---
 
 # Control and components
@@ -17,4 +17,3 @@ Components that **send** or **command** rather than play long-form media.
 | [Layer translate](./layer-translate.md) | Animate layer geometry |
 | [OSC send](./osc-send.md) | Outbound OSC from cues |
 | [MIDI output](./midi-output.md) | Notes/CC/PC from cues |
-| [Cue lights](./cue-lights.md) | Stage cue light actions |

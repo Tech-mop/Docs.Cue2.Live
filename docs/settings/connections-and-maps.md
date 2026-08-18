@@ -14,6 +14,5 @@ description: OSC/MIDI connection panels and show input maps.
 | OSC Input Map | Paths → app actions |
 | MIDI | Session devices |
 | MIDI Input Map | Messages → app actions |
-| Cue lights | Device list |
 
 Deep dives: [Networking](../networking/index.md).

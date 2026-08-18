@@ -15,6 +15,5 @@ description: All cue component types at a glance.
 | Control | No | Layer only for translate | No | No |
 | OSC send | No | No | No | Out |
 | MIDI output | No | No | No | MIDI out |
-| Cue light | No | No | No | Device |
 
 Any combination may share one shell.

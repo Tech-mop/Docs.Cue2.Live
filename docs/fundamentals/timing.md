@@ -29,7 +29,7 @@ Every cue uses the same timing skeleton:
 | Audio | `(end − start) × play count` (open-ended if looping) |
 | Video | In/out span or loop/play count; **still images** use a user **hold duration** (`0` = until stopped) |
 | Text | User duration (`0` = until stopped) |
-| Control / OSC / MIDI / cue light | Typically instantaneous or fade-length based |
+| Control / OSC / MIDI | Typically instantaneous or fade-length based |
 | Children | Nested cues contribute to parent duration calculations |
 
 ## Waveforms and the timeline

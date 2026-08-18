@@ -53,7 +53,6 @@ Mixed-type cues are supported, but it is best practice to keep one component typ
 | OSC | Send a message on a named connection |
 | MIDI output | Send Note/CC/Program on a session device |
 | Control | GO/stop/fade/seek another cue or move a layer |
-| Cue light | Drive a configured cue-light device |
 
 See [Component types](../reference/component-types.md).
 

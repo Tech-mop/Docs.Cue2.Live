@@ -60,7 +60,6 @@ Add and remove components from the inspector (Audio, Video, Text, Connection, Co
 | Control | [Control components](../control/control-components.md) |
 | OSC send | [OSC send](../control/osc-send.md) |
 | MIDI out | [MIDI output](../control/midi-output.md) |
-| Cue light | [Cue lights](../control/cue-lights.md) |
 
 ## Related
 

@@ -32,7 +32,7 @@ Tutorials           → short, hands-on procedures
 Fundamentals        → workspace, cues, timing, transport, undo
 Audio               → patches, routing, levels, deep engine notes
 Video & displays    → layers, canvas, layout, decode/present
-Control & components→ control, OSC send, MIDI out, cue lights
+Control & components→ control, OSC send, MIDI out
 Networking          → OSC / MIDI listen, maps, full command list
 Settings            → show settings and app preferences
 Reference           → glossary, formats, FAQ
@@ -41,7 +41,7 @@ Project             → contributing and building
 
 ## Mental model
 
-Cue2 organises a show as a **session** saved in a **`.c2` showfile**. Inside the session, a **cuelist** holds **cues** (shells). Each cue can carry one or more **components** (audio, video, text, OSC, MIDI, control, cue light) that run together when the cue is triggered.
+Cue2 organises a show as a **session** saved in a **`.c2` showfile**. Inside the session, a **cuelist** holds **cues** (shells). Each cue can carry one or more **components** (audio, video, text, OSC, MIDI, control) that run together when the cue is triggered.
 
 ```text
 Show (.c2)

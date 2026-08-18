@@ -104,7 +104,6 @@ const sidebars = {
         'control/layer-translate',
         'control/osc-send',
         'control/midi-output',
-        'control/cue-lights',
       ],
     },
     {
@@ -120,7 +119,6 @@ const sidebars = {
         'networking/midi-overview',
         'networking/midi-input-map',
         'networking/cue-midi-triggers',
-        'networking/cue-lights-setup',
       ],
     },
     {
