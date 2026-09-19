@@ -2,12 +2,12 @@
 sidebar_label: Overview
 title: Getting started
 cue2_version: v0.1:StripyHat
-description: Install Cue2, learn core concepts, and find keyboard shortcuts.
+description: Install Cue2 on Windows, macOS or Linux, learn the cuelist model, and find keyboard shortcuts.
 ---
 
 # Getting started
 
-This section gets you from download to a working mental model of Cue2.
+This section gets you from a downloaded build to a working mental model of Cue2: sessions, cue shells, components, and GO.
 
 | Page | Summary |
 |------|---------|

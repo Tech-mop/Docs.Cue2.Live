@@ -3,8 +3,8 @@ import {CUE2_CURRENT_VERSION} from './src/cue2DocMeta.js';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cue2 Documentation',
-  tagline: 'Multi-platform event playback software',
+  title: 'Cue2',
+  tagline: 'Open-source live media playback and show control',
   favicon: 'img/icon98.png',
 
   // Site-wide “current” Cue2 line (per-page values live in Markdown front matter).
@@ -78,7 +78,10 @@ const config = {
           editUrl:
             'https://github.com/Tech-mop/Docs.Cue2.Live/edit/main/',
         },
-
+        blog: false,
+        sitemap: {
+          ignorePatterns: ['/search/**', '/meta/**', '/blog/**'],
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -93,8 +96,7 @@ const config = {
         disableSwitch: true,
         defaultMode: 'dark',
       },
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/og-card.png',
       navbar: {
         title: 'Cue2',
         logo: {
@@ -118,6 +120,11 @@ const config = {
             to: '/networking/osc-command-reference',
             label: 'OSC Reference',
             position: 'left',
+          },
+          {
+            href: 'https://www.cue2.live/#download',
+            label: 'Download',
+            position: 'right',
           },
           {
             href: 'https://github.com/Tech-mop/Cue2',

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+Disallow: /search
+Disallow: /search/
+Disallow: /meta/
+Disallow: /blog
+Disallow: /blog/
+
+Sitemap: https://docs.cue2.live/sitemap.xml

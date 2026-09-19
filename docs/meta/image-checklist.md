@@ -6,6 +6,12 @@ cue2_version: v0.1:StripyHat
 description: Maintainer list of documentation screenshots to capture.
 ---
 
+import Head from '@docusaurus/Head';
+
+<Head>
+  <meta name="robots" content="noindex, nofollow" />
+</Head>
+
 # Image checklist
 
 Add PNG (or SVG) files under `static/img/docs/…` matching the paths below. Until a file exists, the page still builds; the image will 404 until you drop it in.

@@ -1,8 +1,8 @@
 ---
 sidebar_label: Home
-title: Cue2 Documentation
+title: Live media playback and show control
 cue2_version: v0.1:StripyHat
-description: Official manual for Cue2 — cross-platform live media playback and show control.
+description: "Official Cue2 manual for cue-based audio, video, text, OSC and MIDI playback on Windows, macOS and Linux."
 ---
 
 # Cue2 Documentation
