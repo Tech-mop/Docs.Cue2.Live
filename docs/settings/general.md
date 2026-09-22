@@ -1,7 +1,7 @@
 ---
 sidebar_label: General
 title: General settings
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: UI scale, GO scale, waveforms, stop fade, and workflow toggles.
 ---
 

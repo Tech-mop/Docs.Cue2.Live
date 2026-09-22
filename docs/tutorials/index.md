@@ -1,7 +1,7 @@
 ---
 sidebar_label: Overview
 title: Tutorials
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Hands-on Cue2 tutorials — play audio, put video on a display, send OSC, and trigger cues over MIDI.
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Text overlays
 title: Text overlays
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Text components on target layers.
 ---
 

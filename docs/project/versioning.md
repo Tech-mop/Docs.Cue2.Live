@@ -1,13 +1,13 @@
 ---
 sidebar_label: Versioning
 title: Versioning
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Application versions, code names, and docs site.
 ---
 
 # Versioning
 
-Cue2 uses semantic versioning for showfile stamps (`major.minor.patch`) plus a status and code name for human builds (example: `v0.1.0 dev - StripyHat`).
+Cue2 uses semantic versioning for showfile stamps (`major.minor.patch`) plus a status and code name for human builds (example: `v0.1.1 - StripyHat`).
 
 | Channel | URL |
 |---------|-----|

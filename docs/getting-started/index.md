@@ -1,7 +1,7 @@
 ---
 sidebar_label: Overview
 title: Getting started
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Install Cue2 on Windows, macOS or Linux, learn the cuelist model, and find keyboard shortcuts.
 ---
 

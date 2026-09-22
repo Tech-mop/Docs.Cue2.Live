@@ -1,7 +1,7 @@
 ---
 sidebar_label: Component defaults
 title: Component defaults
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Defaults for new audio, video, and text components.
 ---
 

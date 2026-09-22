@@ -1,7 +1,7 @@
 ---
 sidebar_label: Audio components
 title: Audio components
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: File playback settings for audio on a cue.
 ---
 

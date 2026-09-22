@@ -1,7 +1,7 @@
 ---
 sidebar_label: Showfile format
 title: Showfile format
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: .c2 format versioning and migration philosophy.
 ---
 

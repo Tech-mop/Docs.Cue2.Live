@@ -1,7 +1,7 @@
 ---
 sidebar_label: OSC overview
 title: OSC overview
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Layers of OSC control in Cue2.
 ---
 

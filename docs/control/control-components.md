@@ -1,7 +1,7 @@
 ---
 sidebar_label: Control components
 title: Control components
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Transport and automation actions targeting other cues.
 ---
 

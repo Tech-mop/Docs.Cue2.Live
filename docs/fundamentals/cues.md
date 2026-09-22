@@ -1,7 +1,7 @@
 ---
 sidebar_label: Cues
 title: Cues (shells)
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Anatomy of a Cue2 cue shell and its components.
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Canvas, screens & layers
 title: Canvas, screens, and layers
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Virtual stage, output windows, and target layers.
 ---
 

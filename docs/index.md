@@ -1,7 +1,7 @@
 ---
 sidebar_label: Home
 title: Live media playback and show control
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: "Official Cue2 manual for cue-based audio, video, text, OSC and MIDI playback on Windows, macOS and Linux."
 ---
 
@@ -9,7 +9,7 @@ description: "Official Cue2 manual for cue-based audio, video, text, OSC and MID
 
 Cue2 is free and open-source software for **cue-based playback of audio, video, text, and show control**. It is built for live performance, installations, and any workflow that needs reliable, low-latency triggering of media and network commands.
 
-This manual covers the product as it exists in the current development line. Each page shows an **Applies to** badge with the Cue2 version it was last verified against (currently **v0.1:StripyHat**).
+This manual covers the product as it exists in the current development line. Each page shows an **Applies to** badge with the Cue2 version it was last verified against (currently **v0.1.1:StripyHat**).
 
 ## Start here
 

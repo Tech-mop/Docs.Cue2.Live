@@ -1,7 +1,7 @@
 ---
 sidebar_label: Formats & images
 title: Formats and still images
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Video and image extensions aligned with Cue2’s FFmpeg 8.x natives.
 ---
 

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Undo & redo
 title: Undo and redo
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Scoped document history in Cue2.
 ---
 

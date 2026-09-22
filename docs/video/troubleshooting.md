@@ -1,7 +1,7 @@
 ---
 sidebar_label: Troubleshooting
 title: Video troubleshooting
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Common video and display problems.
 ---
 

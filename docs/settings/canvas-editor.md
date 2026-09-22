@@ -1,7 +1,7 @@
 ---
 sidebar_label: Canvas editor
 title: Canvas editor
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Edit canvas size, screens, and layers.
 ---
 

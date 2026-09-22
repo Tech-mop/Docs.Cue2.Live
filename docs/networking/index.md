@@ -1,7 +1,7 @@
 ---
 sidebar_label: Overview
 title: Networking and show control
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: OSC and MIDI networking in Cue2.
 ---
 

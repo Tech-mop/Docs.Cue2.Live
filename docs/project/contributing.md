@@ -1,7 +1,7 @@
 ---
 sidebar_label: Contributing
 title: Contributing
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: How to contribute to Cue2 and its documentation.
 ---
 
@@ -31,7 +31,7 @@ Each page declares which Cue2 release it was written or last verified for:
 ```yaml
 ---
 title: Example
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 ---
 ```
 
@@ -46,12 +46,13 @@ If a page’s `cue2_version` differs from the site current version, the badge hi
 
 ### When Cue2 ships a new version
 
-1. Update `CUE2_CURRENT_VERSION` in `src/cue2DocMeta.js` (e.g. `v0.2:NewCodeName`).  
+1. Update `CUE2_CURRENT_VERSION` in `src/cue2DocMeta.js` (e.g. `v0.2.0:NewCodeName`).  
 2. Re-read and correct each page as needed.  
 3. Set that page’s `cue2_version` to the new value when it is verified.  
 4. Optionally bulk-set remaining pages only after a full pass — leaving older values is intentional so readers see which pages lag.  
+   When a patch release does not change the manual, bulk-set every page so the badge matches the release.  
 
-Format: `v{major}.{minor}:{CodeName}` (matches product naming, e.g. `v0.1:StripyHat`).
+Format: `v{major}.{minor}.{patch}:{CodeName}` (matches product naming, e.g. `v0.1.1:StripyHat`).
 
 ## Application contributions
 

@@ -1,7 +1,7 @@
 ---
 sidebar_label: Output patches
 title: Audio output patches
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Map logical patch outputs to physical devices.
 ---
 

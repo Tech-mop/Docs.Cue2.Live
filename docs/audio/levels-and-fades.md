@@ -1,7 +1,7 @@
 ---
 sidebar_label: Levels, pan & fades
 title: Levels, pan, and fades
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Volume, equal-power pan, and fade in/out behaviour.
 ---
 

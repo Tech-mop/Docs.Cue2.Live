@@ -1,7 +1,7 @@
 ---
 sidebar_label: Cue defaults
 title: Cue defaults
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Defaults applied to newly created cue shells.
 ---
 

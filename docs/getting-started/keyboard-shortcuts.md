@@ -1,7 +1,7 @@
 ---
 sidebar_label: Keyboard shortcuts
 title: Keyboard shortcuts
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Default keyboard Input Map actions in Cue2.
 ---
 

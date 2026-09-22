@@ -6,7 +6,7 @@ Examples:
   python3 tools/set-cue2-version.py --from-meta
 
   # Set all pages to an explicit version
-  python3 tools/set-cue2-version.py --version v0.2:NewName
+  python3 tools/set-cue2-version.py --version v0.2.0:NewName
 
   # Only pages missing the key
   python3 tools/set-cue2-version.py --from-meta --missing-only
@@ -74,7 +74,7 @@ def apply_version(path: Path, version: str, missing_only: bool) -> str:
 def main() -> int:
     p = argparse.ArgumentParser(description=__doc__)
     g = p.add_mutually_exclusive_group(required=True)
-    g.add_argument("--version", help="Version string, e.g. v0.1:StripyHat")
+    g.add_argument("--version", help="Version string, e.g. v0.1.1:StripyHat")
     g.add_argument(
         "--from-meta",
         action="store_true",

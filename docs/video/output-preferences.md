@@ -1,7 +1,7 @@
 ---
 sidebar_label: Output preferences
 title: Video output preferences
-cue2_version: v0.1:StripyHat
+cue2_version: v0.1.1:StripyHat
 description: Quality mode, preview scale, and vsync.
 ---
 
