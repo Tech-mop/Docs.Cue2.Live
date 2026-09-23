@@ -40,11 +40,6 @@ Each screen corresponds to an **output window** managed by the displays system. 
 
 Control components can **translate** layer geometry over time. OSC can set pos/size when unlocked.
 
-<!-- IMAGE: video/layer-properties.png
-     Caption: Layer property fields.
--->
-![Layer properties](/img/docs/video/layer-properties.png)
-
 ## Related
 
 - [Display graph (technical)](./technical-display-graph.md)  

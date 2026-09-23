@@ -9,7 +9,7 @@ description: Default keyboard Input Map actions in Cue2.
 
 Shortcuts are bound through Cue2’s **Input Map** (an app preference). Rebind, clear, or reset them in **Cue2 Preferences**. The tables below list **factory defaults**.
 
-Where a shortcut shows **Ctrl**, Godot’s command-or-control remap is used: **⌘** on macOS, **Ctrl** on Windows and Linux. Keys without a modifier (Space, Escape, arrows, `[`, `]`, `=`, `-`, `.`) are the same on every platform.
+Where a shortcut shows **Ctrl**, an internal command-or-control remap is used: **⌘** on macOS, **Ctrl** on Windows and Linux. Keys without a modifier (Space, Escape, arrows, `[`, `]`, `=`, `-`, `.`) are the same on every platform.
 
 **Undo** and **Redo** still work when a text field has focus. Other shortcuts are paused while you type so they do not steal keystrokes.
 

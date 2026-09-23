@@ -17,10 +17,6 @@ description: Place multiple screens and layers on one canvas.
 6. Enable **test pattern**, align physical displays, then disable.  
 7. Point video/text components at the correct **layer ids**.
 
-<!-- IMAGE: tutorials/multi-screen-01.png
-     Caption: Canvas with two screens and shared layers.
--->
-![Multi-screen canvas](/img/docs/tutorials/multi-screen-01.png)
 
 ## Learn more
 

@@ -17,22 +17,6 @@ The main window is where you program and run a show.
 
 ## Regions
 
-```text
-┌─────────────────────────────────────────────────────────────┐
-│ Title bar (File / Edit / Playback / View / Help)            │
-├──────────────┬──────────────────────────┬───────────────────┤
-│              │                          │                   │
-│   Cuelist    │     Inspector tabs       │  (optional        │
-│   (shells)   │     (focused cue)        │   panels)         │
-│              │                          │                   │
-├──────────────┴──────────────────────────┴───────────────────┤
-│ Header: GO control, standby / notes (scaleable)             │
-├─────────────────────────────────────────────────────────────┤
-│ Active cues (running / armed sequence members)              │
-├─────────────────────────────────────────────────────────────┤
-│ Footer: status, media backup progress, log entry points     │
-└─────────────────────────────────────────────────────────────┘
-```
 
 | Region | Role |
 |--------|------|

@@ -29,6 +29,12 @@ On an audio component, set **Patch** to that patch (or use Preferred defaults).
 
 Open the cue’s **routing matrix**. Crosspoints send source channels into patch buses. Combined with pan and volume, this is the artistic send stage before the patch maps to hardware.
 
+<!-- IMAGE: tutorials/audio-routing-expand.gif
+     Caption: Expanding the per-cue routing matrix.
+-->
+![Expanding the cue routing matrix](/img/docs/tutorials/audio-routing-expand.gif)
+
+
 ### 4. GO and verify
 
 Play and confirm each physical output. Use mono stems or channel-check files when tuning multi-channel shows.

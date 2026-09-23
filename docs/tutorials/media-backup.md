@@ -19,7 +19,7 @@ description: Copy media into the show folder for portable relative paths.
 <!-- IMAGE: tutorials/media-backup-01.png
      Caption: Show folder containing the .c2 and media subfolders.
 -->
-![Show folder layout](/img/docs/tutorials/media-backup-01.png)
+<img src="/img/docs/tutorials/media-backup-01.png" alt="Show folder layout" width={420} style={{maxWidth: '100%', height: 'auto'}} />
 
 ## Learn more
 

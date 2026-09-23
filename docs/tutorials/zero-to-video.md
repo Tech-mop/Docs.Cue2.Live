@@ -54,11 +54,6 @@ Output windows are created for configured screens. Bring the output to the corre
 
 Select the cue → **Space**.
 
-<!-- IMAGE: tutorials/zero-to-video-03-output.png
-     Caption: Output window displaying video.
--->
-![Video on output](/img/docs/tutorials/zero-to-video-03-output.png)
-
 ## Still images
 
 Images use the same video component path. Instead of in/out points, set a **hold duration** (`0` means until stopped).

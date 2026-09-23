@@ -15,10 +15,6 @@ description: Enable OSC listen and fire GO from the network.
 4. From any OSC client on the network, send a factory Input Map path such as **`/Go`** (see [OSC Input Map](../networking/osc-input-map.md)).  
 5. Alternatively send a built-in such as **`/GoSelected`** or **`/GoNum 1`** (argument forms supported by the command parser).
 
-<!-- IMAGE: tutorials/osc-go-01.png
-     Caption: OSC listen panel with recent messages.
--->
-![OSC listen](/img/docs/tutorials/osc-go-01.png)
 
 ## Tips
 

@@ -18,10 +18,6 @@ Chain three cues so one GO runs the lot.
 5. Optionally give A and B short pre-waits so you can see the active list timers.  
 6. Select **A** and GO.
 
-<!-- IMAGE: tutorials/cue-sequences-01.png
-     Caption: Three cues with Continue / Follow modes visible.
--->
-![Sequence modes in the cuelist](/img/docs/tutorials/cue-sequences-01.png)
 
 ## Observe
 

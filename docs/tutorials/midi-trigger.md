@@ -17,10 +17,6 @@ description: Start a cue from a MIDI note or CC.
 6. Optionally filter to one device name.  
 7. Arm the cue and send MIDI from your controller.
 
-<!-- IMAGE: tutorials/midi-trigger-01.png
-     Caption: MIDI trigger fields on a cue shell.
--->
-![MIDI trigger setup](/img/docs/tutorials/midi-trigger-01.png)
 
 ## Learn more
 

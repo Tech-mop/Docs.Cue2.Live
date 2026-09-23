@@ -15,10 +15,6 @@ description: Group selected cues under a parent shell.
 4. Collapse/expand with `-` / `=` or `.` for all.  
 5. Drag to reorder within the group as needed.
 
-<!-- IMAGE: tutorials/groups-01.png
-     Caption: Nested group in the cuelist.
--->
-![Grouped cues](/img/docs/tutorials/groups-01.png)
 
 ## Remember
 

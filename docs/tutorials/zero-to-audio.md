@@ -19,7 +19,7 @@ Play a sound file with a single GO.
 
 ### 1. Start a new session
 
-File → **New Session** (or pick New from the launcher).
+File → **New Session**.
 
 <!-- IMAGE: tutorials/zero-to-audio-01-empty.png
      Caption: Empty cuelist ready for media.
@@ -32,10 +32,10 @@ Drag the audio file onto the cuelist (or create a cue and assign the file in the
 
 Cue2 creates a cue shell with an **audio component**, reads metadata, and can generate a waveform.
 
-<!-- IMAGE: tutorials/zero-to-audio-02-dropped.png
-     Caption: Cue after dropping an audio file.
+<!-- IMAGE: tutorials/zero-to-audio-02-drop.gif
+     Caption: Drag an audio file from Finder onto the cuelist.
 -->
-![Audio cue created](/img/docs/tutorials/zero-to-audio-02-dropped.png)
+![Dropping an audio file onto the cuelist](/img/docs/tutorials/zero-to-audio-02-drop.gif)
 
 ### 3. Assign audio output
 
@@ -45,11 +45,6 @@ Open the **Audio** inspector tab.
 2. Ensure the destination device is available/open.  
 3. On the component, choose a **patch** (preferred) or **direct output** device.
 
-<!-- IMAGE: tutorials/zero-to-audio-03-patch.png
-     Caption: Audio component with output assigned.
--->
-![Output assigned](/img/docs/tutorials/zero-to-audio-03-patch.png)
-
 Without an assigned output, the cue will not be heard.
 
 ### 4. GO
@@ -58,10 +53,10 @@ Select the cue and press **Space** (or click GO).
 
 Watch the **active cues** area for progress. Adjust volume on the component if needed.
 
-<!-- IMAGE: tutorials/zero-to-audio-04-playing.png
-     Caption: Cue playing in the active list.
+<!-- IMAGE: tutorials/zero-to-audio-04-go.gif
+     Caption: Press Space / GO — cue appears in Active Cues.
 -->
-![Playing audio cue](/img/docs/tutorials/zero-to-audio-04-playing.png)
+![GO — cue playing in Active Cues](/img/docs/tutorials/zero-to-audio-04-go.gif)
 
 ### 5. Stop
 
